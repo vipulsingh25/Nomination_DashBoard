@@ -1,0 +1,97 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+body {
+    background: rgba(170, 241, 255, 0.20);
+}
+
+.navbar {
+    background-color: #FFFFFF;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.btn-logout {
+    background-color: #4681F4;
+    width: fit-content;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+    .btn-logout:hover {
+        background-color: #0f5cf3;
+    }
+
+.nav-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content {
+    background-color:white;
+    width:80%;
+    height:max-content;
+    margin:40px auto auto auto;
+    padding:20px;
+}
+
+.Export_btn,.Delete_btn,.Upload_btn {
+    background-color: #4681F4;
+    width: fit-content;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    margin:10px;
+}
+
+.Uploadfile{
+    margin-top:50px;
+}
+
+.Calendar_view {
+    display: flex;
+}
+
+    .Export_btn:hover, .Delete_btn:hover, .Upload_btn:hover {
+        background-color: #0f5cf3;
+    }
+
+.Uploadfile p{
+    color:red;
+    font-size:small;
+    margin-top:5px;
+}
+
+.btn_Upload_disable {
+    padding: 10px;
+    background-color: white;
+    color: #4681f4;
+    border: solid 2px #4681f4;
+    cursor: not-allowed;
+}
+
+.col-md-3 {
+    width: 220px;
+    margin:0px 5px 15px 5px;
+}
+
+.label {
+    margin-bottom: 4px;
+}
+
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
