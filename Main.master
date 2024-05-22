@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Main.master.cs" Inherits="Main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+        <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Nomination Dashboard</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+                <link rel="stylesheet" href="./CSS/Home.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div>
+        <div>
+            <div class="navbar">
+                <div class="nav-logo">
+                    <img style="height: 60px;" src="./images/BITS_Pilanilogo.gif" />
+                </div>
+                <button class="btn-logout" onclick="log_out()">Log Out</button>
+            </div>
+            <div class="img_tagline1"><img src="./images/TAGLine.jpg" /></div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <div class="img_tagline2"><img src="./images/TAGLine.jpg" /></div>
+            <div class="footer">
+                <div class="footer-tagline">
+                    <span>©<span>2024 </span>Nomination Dashboard, BITS Pilani-Pilani Campus</span><br>
+                    <span><small>Designed &amp; Developed by Centre for Software Development,SDET Unit, BITS-Pilani, India.</small></span>
+                </div>
+                <div class="footer-logo">
+                    <img style="" src="./images/footer-logo.gif" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+    function log_out(){
+      window.location.replace("./Login.aspx");
+      Session.Clear();
+      Session.RemoveAll();
+      Session.Abandon();
+    }
+    </script>
+</body>
+</html>

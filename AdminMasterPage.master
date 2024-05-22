@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminMasterPage.master.cs" Inherits="AdminMasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+        <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Nomination Dashboard</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+                <link rel="stylesheet" href="./CSS/Admin.css"/>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+                    <div class="navbar">
+                <div class="nav-logo">
+                    <h2>Admin Dashboard</h2>
+                </div>
+                <button class="btn-logout" onclick="log_out()">Log Out</button>
+            </div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
