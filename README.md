@@ -1,4 +1,4 @@
-# Nomination_DashBoard
+# Nomination DashBoard
 
 This project highlights the user-friendly platform that allows HOD of the department to nominate employees efficiently for Award Ceremony.
 
@@ -19,3 +19,9 @@ This project highlights the user-friendly platform that allows HOD of the depart
 **Web Technologies:** HTML, CSS, Query Writing.
 
 ## Screenshots
+
+## Used By
+
+This project is used by:
+
+- SDET-Unit BITS Pilani
