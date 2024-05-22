@@ -20,6 +20,14 @@ This project highlights the user-friendly platform that allows HOD of the depart
 
 ## Screenshots
 
+![](images/Screenshot%202024-05-22%20115404.png)
+
+![](images/Screenshot%202024-05-22%20115705.png)
+
+![](images/Screenshot%202024-05-22%20115614.png)
+
+![](images/Screenshot%202024-05-22%20115800.png)
+
 ## Used By
 
 This project is used by:
